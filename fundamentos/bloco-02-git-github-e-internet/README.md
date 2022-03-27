@@ -1,8 +1,10 @@
 # DIA 3
 
+## Encontro 01 - O que é e para que serve
+
 Nesse dia fomos introduzidos ao Git e ao GitHub
 
-## Os principais pontos abordados foram:
+### Os principais pontos abordados foram:
 
 :white_check_mark: Instalar e configurar o Git no computador;
 
@@ -12,3 +14,15 @@ Nesse dia fomos introduzidos ao Git e ao GitHub
 
 :white_check_mark: Enviar os projetos para o repositório remoto do GitHub .
 :
+
+# Dia 4
+
+## Encontro 2 - Entendendo os comandos
+
+### Principais pontos abordados
+
+:white_check_mark: Copiar um repositório já existente no GitHub para o seu computador;
+
+:white_check_mark: Abrir Pull Requests ;
+
+:white_check_mark: Trabalhar em um mesmo projeto, com mais de uma pessoa, de forma assíncrona e distribuída.
