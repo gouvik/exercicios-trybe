@@ -1,4 +1,4 @@
-# DIA 3
+# Dia 3
 
 ## Encontro 01 - O que é e para que serve
 
