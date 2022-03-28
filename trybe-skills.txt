@@ -3,3 +3,4 @@
 - Git
 - Autoconfiança
 - Autoliderança
+- React.js
