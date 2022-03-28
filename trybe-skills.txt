@@ -4,3 +4,5 @@
 - Autoconfiança
 - Autoliderança
 - React.js
+- GitHub
+- HTML
