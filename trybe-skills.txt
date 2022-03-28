@@ -3,5 +3,6 @@
 - Git
 - Autoconfiança
 - Autoliderança
-GitHub
-HTML
+- React.js
+- GitHub
+- HTML
