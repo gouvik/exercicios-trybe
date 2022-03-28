@@ -6,3 +6,12 @@
 - React.js
 - GitHub
 - HTML
+- Next.js
+
+
+
+
+
+
+
+
