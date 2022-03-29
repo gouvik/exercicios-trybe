@@ -4,74 +4,91 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computaÃ§Ã£o, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
-
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 <details>
 <summary>Bloco 1 ao 10</summary>
-##### Bloco 1: Introdução - Unix & Shell
-- [ ] 1-3: _Fundamentos do Desenvolvimento Web_
-- [ ] 1-3: _Introdução - Unix & Shell_
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
+
+#### Bloco 1: Introdução - Unix & Shell
+
+-  [x] 1-3: _Fundamentos do Desenvolvimento Web_
+-  [x] 1-3: _Introdução - Unix & Shell_
+-  [x] 1-3: _Unix & Shell- Part 1_
+-  [x] 1-4: _Unix & Shell- Part 2_
+
 ##### Bloco 2: Git & GitHub e Internet
-- [ ] 2-1: _Git & GitHub - O que é e para que serve_
-- [ ] 2-2: _Git & GitHub - Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+
+-  [x] 2-1: _Git & GitHub - O que é e para que serve_
+-  [x] 2-2: _Git & GitHub - Entendendo os comandos_
+-  [ ] 2-3: _Internet - Entendendo como ela funciona_
+
 ##### Bloco 3: Introdução - HTML & CSS
-- [ ] 3-1: _Introdução - HTML & CSS_
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
-- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - Lessons Learned]()_
+
+-  [ ] 3-1: _Introdução - HTML & CSS_
+-  [ ] 3-1: _HTML & CSS - Estruturas de página_
+-  [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
+-  [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
+-  [ ] 3-4: _HTML Semântico_
+-  [ ] 3-5: _[Projeto - Lessons Learned]()_
+
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
-- [ ] 4-1: _Introdução - JavaScript_
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+
+-  [ ] 4-1: _Introdução - JavaScript_
+-  [ ] 4-1: _JavaScript - Primeiros passos_
+-  [ ] 4-2: _JavaScript - Array e loop For_
+-  [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+-  [ ] 4-4: _JavaScript - Objetos e funções_
+-  [ ] 4-5: _[Projeto - Playground Functions]()_
+
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5: _[Projeto - Arte com Pixels]()_
-- [ ] 5-6: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto (Bônus) - Meme Generator]()_
-- [ ] 5-7: _[Projeto (Bônus) - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto (Bônus) - Carta Misteriosa]()_
+
+-  [ ] 5-1: _JavaScript - DOM e seletores_
+-  [ ] 5-2: _JavaScript - Trabalhando com elementos_
+-  [ ] 5-3: _JavaScript - Eventos_
+-  [ ] 5-4: _JavaScript - Web Storage_
+-  [ ] 5-5: _Fundamentos - JavaScript - Projetos_
+-  [ ] 5-5: _[Projeto - Arte com Pixels]()_
+-  [ ] 5-6: _[Projeto - Lista de tarefas]()_
+-  [ ] 5-7: _[Projeto (Bônus) - Meme Generator]()_
+-  [ ] 5-7: _[Projeto (Bônus) - Adivinhe a Cor]()_
+-  [ ] 5-7: _[Projeto (Bônus) - Carta Misteriosa]()_
+
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _Introdução - CSS Flexbox_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Trybewarts]()_
+
+-  [ ] 6-1: _HTML & CSS - Forms_
+-  [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+-  [ ] 6-3: _Introdução - CSS Flexbox_
+-  [ ] 6-3: _CSS Flexbox - Part 1_
+-  [ ] 6-4: _CSS Flexbox - Part 2_
+-  [ ] 6-5: _CSS Responsivo - Mobile First_
+-  [ ] 6-6: _[Projeto - Trybewarts]()_
+
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-- [ ] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+
+-  [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+-  [ ] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+-  [ ] 7-3: _Primeiros passos em Jest_
+-  [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
-- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+
+-  [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+-  [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+-  [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+-  [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+-  [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+-  [ ] 8-6: _[Projeto - Zoo functions]()_
+
 ##### Bloco 9: JavaScript e Testes Assíncronos
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+
+-  [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+-  [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+-  [ ] 9-3: _Jest - Testes Assíncronos_
+-  [ ] 9-4: _[Projeto - Carrinho de Compras]()_
 </details>
-  
+
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
+
 <details>
 <summary>Bloco 10 ao 18</summary>
   
@@ -114,7 +131,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 18: Projeto App de Receitas
 - [ ] 18-1: _[Projeto - App de Receitas]()_
 </details>
+
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
+
 <details>
 <summary>Bloco 19 ao 32</summary>
   
@@ -192,40 +211,54 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 32: Projeto - App de Delivery
 - [ ] 32-1: _[Projeto - App de Delivery]()_
 </details>
+
 ## Ciência da Computação :hourglass_flowing_sand:
+
 <details>
 <summary>Bloco 33 ao 38</summary>
+
 ##### Bloco 33: Introdução à Python
-- [ ] 33-1: _Introdução - Ciência da Computação_
-- [ ] 33-1: _Aprendendo Python_
-- [ ] 33-2: _Entrada e Saída de Dados_
-- [ ] 33-3: _Testes_
-- [ ] 33-4: _[Projeto - Job Insights]()_
+
+-  [ ] 33-1: _Introdução - Ciência da Computação_
+-  [ ] 33-1: _Aprendendo Python_
+-  [ ] 33-2: _Entrada e Saída de Dados_
+-  [ ] 33-3: _Testes_
+-  [ ] 33-4: _[Projeto - Job Insights]()_
+
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 34-1: _Introdução à programação orientada a objetos_
-- [ ] 34-2: _Herança, Composição e Interfaces_
-- [ ] 34-3: _Padrões de projeto_
-- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
+
+-  [ ] 34-1: _Introdução à programação orientada a objetos_
+-  [ ] 34-2: _Herança, Composição e Interfaces_
+-  [ ] 34-3: _Padrões de projeto_
+-  [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
+
 ##### Bloco 35: Redes e Raspagem de Dados
-- [ ] 35-1: _Arquitetura de redes_
-- [ ] 35-2: _Redes de computadores, ferramentas e segurança_
-- [ ] 35-3: _Raspagem de Dados_
-- [ ] 35-4: _[Projeto - Tech news]()_
+
+-  [ ] 35-1: _Arquitetura de redes_
+-  [ ] 35-2: _Redes de computadores, ferramentas e segurança_
+-  [ ] 35-3: _Raspagem de Dados_
+-  [ ] 35-4: _[Projeto - Tech news]()_
+
 ##### Bloco 36: Algoritmos
-- [ ] 36-1: _Complexidade de Algoritmos_
-- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 36-3: _Algoritmos de ordenação e busca_
-- [ ] 36-4: _[Projeto - Algoritmos]()_
+
+-  [ ] 36-1: _Complexidade de Algoritmos_
+-  [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
+-  [ ] 36-3: _Algoritmos de ordenação e busca_
+-  [ ] 36-4: _[Projeto - Algoritmos]()_
+
 ##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
-- [ ] 37-1: _Arquitetura de Computadores_
-- [ ] 37-2: _Arrays_
-- [ ] 37-3: _Hashmap e Dict_
-- [ ] 37-4: _Set_
-- [ ] 37-5: _[Projeto - Restaurant Orders]()_
+
+-  [ ] 37-1: _Arquitetura de Computadores_
+-  [ ] 37-2: _Arrays_
+-  [ ] 37-3: _Hashmap e Dict_
+-  [ ] 37-4: _Set_
+-  [ ] 37-5: _[Projeto - Restaurant Orders]()_
+
 ##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
-- [ ] 38-1: _Nó e Listas Encadeadas_
-- [ ] 38-2: _Pilhas e Filas_
-- [ ] 38-3: _[Projeto - TING - Trybe Is Not Google]()_
-  
+
+-  [ ] 38-1: _Nó e Listas Encadeadas_
+-  [ ] 38-2: _Pilhas e Filas_
+-  [ ] 38-3: _[Projeto - TING - Trybe Is Not Google]()_
+
 </details>
 ##
