@@ -26,3 +26,10 @@ Nesse dia fomos introduzidos ao Git e ao GitHub
 :white_check_mark: Abrir Pull Requests ;
 
 :white_check_mark: Trabalhar em um mesmo projeto, com mais de uma pessoa, de forma assíncrona e distribuída.
+
+# Dia 5
+
+:white_check_mark: Explicar de forma simples como a internet funciona;
+:white_check_mark: Entender o modelo Cliente & Servidor e identificar suas partes;
+:white_check_mark: Compreender como funcionam os protocolos HTTP e HTTPS;
+:white_check_mark: Identificar quais os tipos de requisição podem ser feitos através desses protocolos.
