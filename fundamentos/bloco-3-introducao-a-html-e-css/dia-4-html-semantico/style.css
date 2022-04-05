@@ -1,3 +1,32 @@
+body {
+    margin-left: auto;
+}
+
+h1 {
+    align-self: center;
+    text-align: center;
+    font-size: 500%;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.192);
+}
+main {
+    width: 90%;
+    margin:auto
+}
+
+h2 {
+font-family: 'Nunito',
+sans-serif;
+}
+h3 {
+    font-family: 'Quicksand',
+    sans-serif;
+}
+article:nth-last-of-type(1) > article:nth-child(1) > h2:nth-child(1) {
+    text-align: center;
+    font-size: 180%;
+    padding-top: 15px;
+}
 td,
 th {
     border: 1px solid #dddddd;
@@ -7,4 +36,51 @@ th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./1440px-Odontodactylus_scyllarus1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.navigation {
+    background-color: #30AADD;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+}
+aside {
+font-style: italic;
+    background-color: lightgray;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+ 
+}
+.article-background {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 5px;
+}
+.child-article {
+    background: #c3f8ff;
+}
+.child-article h2, p {
+    margin: 15px;
+    font-size: 120%;
+}
+.last-sec {
+    background-color: #b4b4b4;
 }
