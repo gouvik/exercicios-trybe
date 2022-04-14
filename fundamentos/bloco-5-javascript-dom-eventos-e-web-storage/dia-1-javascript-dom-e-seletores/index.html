@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<header>
+			<h2 id="page-title">Título</h2>
+			<p class="para" id="paragraph">Dê uma cor para este parágrafo!</p>
+			<h4 id="subtitle">Subtítulo</h4>
+			<p class="para" id="second-paragraph">Segundo parágrafo!</p>
+		</header>
+		<script>
+			const paragraph = document.getElementById("paragraph");
+			paragraph.style.color = "red";
+
+			const title = document.querySelector("#page-title");
+			title.innerHTML = "O guia do mochileiro das galaxias";
+
+			const segP = document.querySelectorAll("p");
+			segP[1].innerHTML = "Coé maluco";
+
+			const subs = document.querySelector("h4");
+			subs.innerHTML = "kakaka";
+
+			const pUm = document.querySelectorAll(".para");
+			pUm[0].style.color = "green";
+			pUm[1].style.color = "red";
+
+			const agazao = document.querySelector("h4");
+			agazao.style.background = "gray";
+		</script>
+	</body>
+</html>
+-
