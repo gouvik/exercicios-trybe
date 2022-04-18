@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Exercício 5.2</title>
+		<style>
+			section {
+				border-color: black;
+				border-style: solid;
+			}
+
+			.title {
+				text-align: center;
+			}
+
+			.main-content {
+				background-color: yellow;
+			}
+
+			.main-content .center-content {
+				background-color: red;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.main-content .center-content p {
+				font-style: italic;
+			}
+
+			.main-content .left-content {
+				background-color: green;
+				width: 60%;
+				margin-left: 0;
+				margin-right: auto;
+			}
+
+			.main-content .left-content .small-image {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				border-radius: 100%;
+			}
+
+			.main-content .right-content {
+				background-color: blue;
+				width: 60%;
+				margin-left: auto;
+				margin-right: 0;
+			}
+
+			.main-content .description {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			// COLOQUE SEU CÓDIGO AQUI
+			const pai = document.querySelector("body");
+
+			function ignateH1() {
+				let h1DaPage = document.createElement("h1");
+				h1DaPage.innerText = "Exercício 5.2 - JavaScript DOM";
+				h1DaPage.className = "title";
+				pai.appendChild(h1DaPage);
+			}
+
+			function mainCreate() {
+				const mainCreate = document.createElement("main");
+				mainCreate.className = "main-content";
+				pai.appendChild(mainCreate);
+			}
+			function firstSection() {
+				const main = document.querySelector("main");
+				let firstSection = document.createElement("section");
+				firstSection.className = "center-content";
+				main.appendChild(firstSection);
+			}
+			function insertP() {
+				let insertP = document.createElement("p");
+				insertP.innerText = "Conseguimos, Houston!";
+				document.querySelector(".center-content").appendChild(insertP);
+			}
+			function leftSection() {
+				let leftContentSection = document.createElement("section");
+				leftContentSection.className = "left-content";
+				document.querySelector("main").appendChild(leftContentSection);
+			}
+			function rightSection() {
+				let rightSection = document.createElement("section");
+				rightSection.className = "right-content";
+				//rightSection.style.marginRight = "auto";
+				document.querySelector("main").appendChild(rightSection);
+			}
+			function imageSet() {
+				let imageSet = document.createElement("img");
+				imageSet.src = "https://picsum.photos/200";
+				imageSet.className = "small-image";
+				document.querySelector(".left-content").appendChild(imageSet);
+			}
+			function ulCreate() {
+				let arr = [
+					"um",
+					"dois",
+					"três",
+					"quatro",
+					"cinco",
+					"seis",
+					"sete",
+					"oito",
+					"nove",
+					"dez",
+				];
+				let ulCreate = document.createElement("ul");
+				document.querySelector(".right-content").appendChild(ulCreate);
+
+				for (let index = 0; index < arr.length; index++) {
+					let li = document.createElement("li");
+					li.innerText = arr[index];
+					document.querySelector("ul").appendChild(li);
+				}
+			}
+			function h3Creator() {
+				for (let index = 0; index < 3; index++) {
+					let h3Creator = document.createElement("h3");
+					h3Creator.innerText = "teste";
+					h3Creator.className = "description";
+					document.querySelector("main").appendChild(h3Creator);
+				}
+			}
+
+			function removeLeftContent() {
+				document
+					.querySelector("main")
+					.removeChild(document.querySelector(".left-content"));
+			}
+			function rightSectionAligner() {
+				let ladoDireito = document.querySelector(".right-content");
+				ladoDireito.style.marginRight = "auto";
+			}
+			function mainContentTweak() {
+				document.querySelector(".center-content").style.background =
+					"green";
+			}
+			function removeListItem() {
+				document
+					.querySelector("ul")
+					.removeChild(document.querySelectorAll("li")[9]);
+				document
+					.querySelector("ul")
+					.removeChild(document.querySelectorAll("li")[8]);
+			}
+
+			// Chamadas:
+			ignateH1();
+			mainCreate();
+			firstSection();
+			insertP();
+			leftSection();
+			rightSection();
+			imageSet();
+			ulCreate();
+			h3Creator();
+			removeLeftContent();
+			rightSectionAligner();
+			mainContentTweak();
+			removeListItem();
+
+			////
+		</script>
+	</body>
+</html>
