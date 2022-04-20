@@ -1,0 +1,135 @@
+body {
+    /* margin-left: auto; */
+}
+
+h1 {
+    align-self: center;
+    text-align: center;
+    font-size: 500%;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.192);+
+}
+main {
+    width: 90%;
+    margin:auto
+}
+.main-article-title {
+    font-size: 250%;
+}
+
+h2 {
+font-family: 'Nunito',
+sans-serif;
+}
+
+h3 {
+    font-family: 'Quicksand',
+    sans-serif;
+}
+article:nth-last-of-type(1) > article:nth-child(1) > h2:nth-child(1) {
+    text-align: center;
+    font-size: 180%;
+    padding-top: 15px;
+}
+.img-post-wrapper {
+    display: flex;
+}
+.imagem-dos-artigos {
+    border-radius: 30px;
+    width: 40%;
+    height: auto;
+   margin: auto;
+}
+.table-title-wrapper p {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    font-size: 125%;
+    padding: 1%;    
+}
+.tabela {
+
+    background-color: darkseagreen;
+}
+table {
+    width: 100%;
+    background-color: cornsilk;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./1440px-Odontodactylus_scyllarus1.jpg);
+    background-size: cover;
+    color: white;
+    }
+
+.navigation {
+    background-color: #c0ecffba;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+}
+aside {
+font-style: italic;
+    background-color: lightgray;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+ 
+}
+.article-background {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 5px;
+}
+.child-article {
+    /* background: #f6c4c4; */
+    border: 1px solid black;
+    margin: 15px;
+}
+.child-article h2 {
+border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.child-article >  p::first-letter {
+    color: red;
+    font-size: 130% 
+}
+.child-article p {
+    text-align: justify;
+    font-weight: 500;
+}
+
+.child-article h2, p {
+    margin: 15px;
+    font-size: 120%;
+}
+.last-sec {
+    background-color: #b4b4b4;
+}
+.last-sec > nav {
+    text-align: center;
+}
+.last-sec ul li {
+    display: inline-block;
+    padding: 0% 20px;
+    font-size: 18px;
+}
+
+footer {
+font-family: "PT Sans";
+text-align: center;
+}
