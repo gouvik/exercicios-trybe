@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<main id="paiDoPai">
+			<section id="pai">
+				<section id="primeiroFilho"></section>
+				<section id="elementoOndeVoceEsta">
+					<section id="primeiroFilhoDoFilho"></section>
+					<section id="segundoEUltimoFilhoDoFilho"></section>
+				</section>
+				Atenção!
+				<section id="terceiroFilho"></section>
+				<section id="quartoEUltimoFilho"></section>
+			</section>
+		</main>
+		<script>
+			document.getElementById(
+				"elementoOndeVoceEsta"
+			).parentNode.style.color = "green";
+
+			document.getElementById("primeiroFilhoDoFilho").innerText = "Upa lelê";
+
+			document.getElementById("pai").firstChild;
+
+			function criarElemento() {
+				let setandoLocalizacao = document.querySelector("#pai");
+				let definindoElementoASerCriado = document.createElement("section");
+				definindoElementoASerCriado.id = "irmãoElementoOndeVoceEsta";
+				definindoElementoASerCriado.innerText = "caraca muleke!";
+				setandoLocalizacao.appendChild(definindoElementoASerCriado);
+			}
+			function filhoOndeVcEsta() {
+				let paizinho = document.getElementById("elementoOndeVoceEsta");
+				let filhoOndeVcEsta = document.createElement("section");
+				filhoOndeVcEsta.innerText = "gugu dádá";
+				paizinho.appendChild(filhoOndeVcEsta);
+			}
+
+			let pai2 = document.getElementById("primeiroFilhoDoFilho");
+			let filhoDoPrimeiroFilhoDoFilho = document.createElement("section");
+			filhoDoPrimeiroFilhoDoFilho.innerHTML = "O monstro saindo da jaula";
+			pai2.appendChild(filhoDoPrimeiroFilhoDoFilho);
+
+			const pai = document.getElementById("pai");
+
+			for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
+				const currentChildren = pai.childNodes[index];
+				if (currentChildren.id !== "elementoOndeVoceEsta") {
+					currentChildren.removeChild();
+				}
+			}
+			const segundoEUltimoFilhoDoFilho = document.getElementById(
+				"segundoEUltimoFilhoDoFilho"
+			);
+			segundoEUltimoFilhoDoFilho.remove();
+
+			criarElemento();
+			filhoOndeVcEsta();
+		</script>
+	</body>
+</html>
