@@ -23,8 +23,8 @@
 			</header>
 			<main>
 				<form action="" method="get" class="form-control">
-					<section>
-						<div class="form-group">
+					<section id="contact-section">
+						<div class="form-group" id="name-container">
 							<label for="">Nome :</label>
 							<input
 								type="text"
@@ -36,7 +36,7 @@
 								class="form-control"
 							/>
 						</div>
-						<div class="form-group">
+						<div class="form-group" id="email-container">
 							<label for="email-input">Email :</label>
 							<input
 								type="email"
@@ -52,7 +52,7 @@
 							>
 						</div>
 					</section>
-					<div id="categorias">
+					<div id="categorias" class="form-control">
 						<label for="cat-container" class="form-check-label"
 							>Destino Preferido:</label
 						>
@@ -100,7 +100,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="texto" class="form-group">
+					<div id="testemonial" class="form-group">
 						<fieldset>
 							<legend>
 								Por que você deveria ser a pessoa desenvolvedora a
@@ -161,6 +161,11 @@
 					</div>
 				</form>
 			</main>
+			<footer class="card-footer">
+				<p id="footer-p" class="text-muted">
+					Forjado nas caldeiras sagradas de Avalor por Jr Gouveia
+				</p>
+			</footer>
 			<script src="script.js"></script>
 		</div>
 	</body>
