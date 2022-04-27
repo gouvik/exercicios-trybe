@@ -1,0 +1,66 @@
+body {
+	background-color: rgb(177, 224, 189);
+}
+header {
+	background-color: rgb(90, 227, 124);
+}
+
+#containerGeral {
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+}
+
+h1 {
+	padding: 15px;
+	text-align: center;
+	border: 1px rgb(113, 113, 113) solid;
+}
+
+#email-container,
+#name-container {
+	margin-top: 1%;
+}
+#categorias {
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+#cat-container {
+	padding-top: 5px;
+}
+
+#emailHelp {
+	display: block;
+	margin-bottom: 2.5%;
+}
+#testemonial {
+	margin-top: 2%;
+}
+
+textarea {
+	resize: none;
+	width: 99%;
+}
+
+#data-viagem {
+	margin: 2%;
+}
+#data-viagem-container {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+#do-botao {
+	margin-top: 3%;
+	text-align: center;
+}
+button[type="submit"],
+button[type="reset"] {
+	padding: 5px;
+	border-radius: 3px;
+	background-color: rgb(90, 227, 124);
+	text-align: center;
+	margin: auto;
+}
+
+#footer-p {
+	text-align: center;
+}
