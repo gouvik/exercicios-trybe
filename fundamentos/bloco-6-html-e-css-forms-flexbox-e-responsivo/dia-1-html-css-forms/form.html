@@ -14,6 +14,12 @@
 		<script src="/Exercicios do Conteúdo/bootstrap-5.1.3-dist/js/jquery-3.6.0.min.js"></script>
 		<script src="/Exercicios do Conteúdo/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"
+		/>
 		<title>TrybeTrip</title>
 	</head>
 	<body>
@@ -50,6 +56,17 @@
 							<small id="emailHelp" class="form-text text-muted"
 								>Nunca vamos compartilhar seu email. Com ninguém.</small
 							>
+						</div>
+						<div class="form-group" id="begin-date-container">
+							<label for="">Data de inicio :</label>
+							<input
+								type="text"
+								name="dataDeInicio"
+								id="datepicker"
+								minlength="10"
+								maxlength="40"
+								class="form-control"
+							/>
 						</div>
 					</section>
 					<div id="categorias" class="form-control">
@@ -166,6 +183,12 @@
 					Forjado nas caldeiras sagradas de Avalor por Jr Gouveia
 				</p>
 			</footer>
+			<script src="pikaday.js"></script>
+			<script>
+				var picker = new Pikaday({
+					field: document.getElementById("datepicker"),
+				});
+			</script>
 			<script src="script.js"></script>
 		</div>
 	</body>
