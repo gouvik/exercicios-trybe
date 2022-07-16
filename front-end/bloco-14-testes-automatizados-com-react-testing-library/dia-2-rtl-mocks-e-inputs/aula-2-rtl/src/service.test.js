@@ -71,3 +71,23 @@ jest.spyOn(service, "upper").mockImplementation(a => a.toLowerCase());
     expect(service.firstLetter('Bomba')).not.toBe('B');
   })
 })
+
+describe('Requisões para a API Dog Pictures', () => {
+  service.dogFetch = jest.fn();
+  afterEach(service.dogFetch.mockReset);
+
+  it('Testa se a requisição ocorreu.', async () => {
+    service.dogFetch.mockResolvedValue('request success');
+    // service.dogFetch();
+
+    // expect(service.dogFetch).toHaveBeenCalled();
+    // expect(service.dogFetch).toHaveBeenCalledTimes(1);
+    await expect(service.dogFetch()).resolves.toBe('request success');
+
+ });
+ it('Testa requisição caso a promise seja rejeitada.', async () => {
+    service.dogFetch.mockRejectedValue('request failed'); // Quando quero mockar uma rejeição
+
+    expect(service.dogFetch).toHaveBeenCalledTimes(0)
+    await expect(service.dogFetch()).rejects.toMatch("request failed"); })
+})

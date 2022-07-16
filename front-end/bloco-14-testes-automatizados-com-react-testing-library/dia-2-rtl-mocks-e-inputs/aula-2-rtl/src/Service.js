@@ -9,6 +9,13 @@ const firstLetter = (str) => str.charAt(0);
 const glue = (a, b) => a.concat(b);
 // const lastLetter = (str) => str.charAt(str.length-1)
 
+async function dogFetch () {
+    const response = await fetch("https://dog.ceo/api/breeds/image/random");
+    const json = await response
+        .json();
+    return await (response.ok ? Promise.resolve(json) : Promise.reject(json));
+}
 
 
-module.exports= { randomNumber, upper, firstLetter, glue }
+
+module.exports= { randomNumber, upper, firstLetter, glue, dogFetch };
