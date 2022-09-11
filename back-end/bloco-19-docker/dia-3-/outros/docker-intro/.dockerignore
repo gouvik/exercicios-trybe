@@ -1,0 +1,3 @@
+# Criamos um .dockerignore  para ignorar algumas coisas que não precisamos copiar para o container, ele é semelhante ao .gitignore quando não queremos enviar algo para repositório do GitHub.
+
+node_modules
