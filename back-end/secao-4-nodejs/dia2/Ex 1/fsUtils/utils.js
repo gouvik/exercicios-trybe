@@ -19,7 +19,8 @@ const activities = [
   ];
 
 async function createObject() {
-await fs.writeFile('fsUtils/activities.json', JSON.stringify(activities));
+  const fn = await fs.writeFile('fsUtils/activities.json', JSON.stringify(activities));
+  return fn;
 }
 
 async function main() {
@@ -28,4 +29,7 @@ async function main() {
 
 main();
 
-module.exports = activities;
+module.exports = {
+  activities,
+  createObject
+};

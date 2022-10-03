@@ -1,5 +1,6 @@
 const express = require('express'); //importar a biblioteca;
 const activities = require('./fsUtils/activities.json');
+const validateTeam = require('./src/middlewares/validateTeam')
 
 const app = express(); //Estanciar o Express numa constante;
 
