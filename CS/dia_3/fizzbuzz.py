@@ -11,5 +11,3 @@ def fizzbuzz(num: int):
             numbers.append(n)
         
     return numbers
-
-# print(fizzbuzz("A"))
